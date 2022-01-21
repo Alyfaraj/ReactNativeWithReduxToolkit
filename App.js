@@ -7,11 +7,6 @@ export default App = () => {
   const dispatch = useDispatch()
 
 
-  if (error.length > 0) (
-    <View style={{ justifyContent: 'center', alignItems: 'center' }} >
-      <Text style={{ color: 'red' }} >{error}</Text>
-    </View>
-  )
 
   return (
     <View style={{ marginTop: 100 }} >
